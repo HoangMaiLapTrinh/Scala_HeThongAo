@@ -1,0 +1,456 @@
+2025.04.03 08:33:08 INFO  Started: Metals version 1.5.2 in folders 'D:\Program Files\GitHub\Scala_HeThongAo\hello-world' for client Visual Studio Code 1.98.2.
+2025.04.03 08:33:09 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:33:09 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:33:10 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:33:10 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:33:10 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 03, 2025 8:33:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Apr 03, 2025 8:33:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2025.04.03 08:33:10 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Apr 03, 2025 8:33:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2025.04.03 08:33:11 INFO  running 'C:\Users\hoang\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.14%252B7\OpenJDK17U-jdk_x64_windows_hotspot_17.0.14_7.zip\jdk-17.0.14+7\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\hoang\AppData\Local\Temp\metals13281983677397401521\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.04.03 08:33:15 INFO  [info] welcome to sbt 1.10.11 (Eclipse Adoptium Java 17.0.14)
+2025.04.03 08:33:17 INFO  [info] loading settings for project hello-world-build-build from metals.sbt...
+2025.04.03 08:33:17 INFO  [info] loading project definition from D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\project
+2025.04.03 08:33:24 INFO  [info] loading settings for project hello-world-build from metals.sbt...
+2025.04.03 08:33:24 INFO  [info] loading project definition from D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project
+2025.04.03 08:33:33 INFO  [success] Generated .bloop\hello-world-build.json
+2025.04.03 08:33:33 INFO  [success] Total time: 9 s, completed 3 Apr 2025, 8:33:33 am
+2025.04.03 08:33:34 INFO  [info] loading settings for project hello-world from build.sbt...
+2025.04.03 08:33:34 INFO  [info] set current project to hello-world (in build file:/D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/)
+2025.04.03 08:33:41 INFO  [success] Generated .bloop\hello-world-test.json
+2025.04.03 08:33:41 INFO  [success] Generated .bloop\hello-world.json
+2025.04.03 08:33:41 INFO  [success] Total time: 7 s, completed 3 Apr 2025, 8:33:41 am
+2025.04.03 08:33:41 INFO  time: ran 'sbt bloopInstall' in 29s
+2025.04.03 08:33:41 INFO  Attempting to connect to the build server...
+2025.04.03 08:33:41 INFO  No running Bloop server found, starting one.
+2025.04.03 08:34:03 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:03 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:03 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:03 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:34:04 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:34:04 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:04 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:06 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:06 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:06 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:34:06 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:06 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:06 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:34:06 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:06 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:07 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:34:07 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:13 INFO  Starting compilation server
+2025.04.03 08:34:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:34:15 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:15 WARN  Could not find semantic tokens for: file:///D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/build.sbt
+2025.04.03 08:34:16 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:16 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:16 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:16 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:17 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:17 WARN  Could not find semantic tokens for: file:///D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/build.sbt
+2025.04.03 08:34:18 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:19 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:18 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:19 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:19 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:20 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt
+2025.04.03 08:34:20 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:20 WARN  Could not find semantic tokens for: file:///D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/build.sbt
+2025.04.03 08:34:20 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:20 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:20 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:20 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:21 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt
+2025.04.03 08:34:21 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:21 WARN  Could not find semantic tokens for: file:///D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/build.sbt
+2025.04.03 08:34:28 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:34:28 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:28 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:28 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:34:34 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:34:34 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:34:34 INFO  Found a Bloop server running
+2025.04.03 08:34:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:34:38 INFO  running 'C:\Users\hoang\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.14%252B7\OpenJDK17U-jdk_x64_windows_hotspot_17.0.14_7.zip\jdk-17.0.14+7\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\hoang\AppData\Local\Temp\metals2352309996683293893\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.04.03 08:34:40 INFO  [info] welcome to sbt 1.10.11 (Eclipse Adoptium Java 17.0.14)
+2025.04.03 08:34:40 INFO  [info] loading settings for project hello-world-build-build from metals.sbt...
+2025.04.03 08:34:41 INFO  [info] loading project definition from D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\project
+2025.04.03 08:34:41 INFO  [info] loading settings for project hello-world-build from metals.sbt...
+2025.04.03 08:34:41 INFO  [info] loading project definition from D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project
+2025.04.03 08:34:45 INFO  [success] Generated .bloop\hello-world-build.json
+2025.04.03 08:34:45 INFO  [success] Total time: 2 s, completed 3 Apr 2025, 8:34:45 am
+2025.04.03 08:34:45 INFO  [info] loading settings for project hello-world from build.sbt...
+2025.04.03 08:34:45 INFO  [info] set current project to hello-world (in build file:/D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/)
+2025.04.03 08:34:45 INFO  [success] Generated .bloop\hello-world-test.json
+2025.04.03 08:34:45 INFO  [success] Generated .bloop\hello-world.json
+2025.04.03 08:34:46 INFO  [success] Total time: 0 s, completed 3 Apr 2025, 8:34:46 am
+2025.04.03 08:34:46 INFO  time: ran 'sbt bloopInstall' in 7.91s
+2025.04.03 08:34:46 INFO  Attempting to connect to the build server...
+2025.04.03 08:34:46 INFO  Found a Bloop server running
+2025.04.03 08:34:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:34:55 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:34:55 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:34:55 INFO  Found a Bloop server running
+2025.04.03 08:34:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:02 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:02 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:35:02 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:02 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:03 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:35:02 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:03 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:03 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:35:03 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:03 INFO  Attempting to connect to the build server...
+2025.04.03 08:35:03 INFO  Found a Bloop server running
+2025.04.03 08:35:03 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:03 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:35:03 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:03 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:03 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:35:03 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:06 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:06 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:35:06 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:06 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:35:06 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:35:06 INFO  Found a Bloop server running
+2025.04.03 08:35:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:06 INFO  Attempting to connect to the build server...
+2025.04.03 08:35:06 INFO  Found a Bloop server running
+2025.04.03 08:35:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:09 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt
+2025.04.03 08:35:09 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:09 WARN  Could not find semantic tokens for: file:///D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/build.sbt
+2025.04.03 08:35:09 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:09 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:13 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:13 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:13 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:13 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:14 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt
+2025.04.03 08:35:14 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:14 WARN  Could not find semantic tokens for: file:///D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/build.sbt
+2025.04.03 08:35:14 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:14 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:16 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:16 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:16 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:17 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:24 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:35:24 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:35:24 INFO  Found a Bloop server running
+2025.04.03 08:35:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:27 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:35:27 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:35:27 INFO  Found a Bloop server running
+2025.04.03 08:35:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:28 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:31 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:33 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:42 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:35:42 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:42 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:42 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:44 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:35:44 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:35:44 INFO  Found a Bloop server running
+2025.04.03 08:35:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:47 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:35:47 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:35:47 INFO  Found a Bloop server running
+2025.04.03 08:35:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:35:48 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:48 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:48 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:35:48 WARN  Could not find semantic tokens for: file:///D:/Program%20Files/GitHub/Scala_HeThongAo/hello-world/project/metals.sbt
+2025.04.03 08:35:49 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:36:02 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:36:02 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:36:03 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:36:02 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:36:04 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:36:04 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:36:04 INFO  Found a Bloop server running
+2025.04.03 08:36:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:36:08 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 08:36:08 WARN  Retrying connection to the build server Bloop
+2025.04.03 08:36:08 INFO  Found a Bloop server running
+2025.04.03 08:36:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Program Files\GitHub\Scala_HeThongAo\hello-world\project\.metals\bsp.trace.json or C:\Users\hoang\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.04.03 08:36:12 WARN  no build target for: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+2025.04.03 08:36:12 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.03 08:36:12 INFO  no build target found for D:\Program Files\GitHub\Scala_HeThongAo\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.03 08:36:16 INFO  Shutting down server
+2025.04.03 08:36:16 INFO  shutting down Metals
+2025.04.03 08:36:16 INFO  Exiting server
